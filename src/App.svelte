@@ -1,8 +1,5 @@
 <main>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Your Name</title>
+<title>Your Name</title>
 
 
 </main>
