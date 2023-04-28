@@ -1,5 +1,7 @@
 <main>
-<h1><u>Calvin K</u></h1>
-
+<head>
+    <h1><u> Calvin k / Portfolio </u></h1>
+    <link rel="text/css" href="style.ccs">
+</head>    
 
 </main>
