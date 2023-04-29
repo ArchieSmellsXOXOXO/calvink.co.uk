@@ -8,7 +8,7 @@
   <center><h1> <u> Marketing </u> </h1></center>
 
 
-<a href="discord.com">
+<a href="https://discord.gg/kfvynxAUuv">
   <button>Click me</button>
 
 </a>
