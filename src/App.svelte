@@ -82,12 +82,7 @@ h1 {
 }
 </style>
 
-<style>
-  header {
-    text-align: right;
-    color: grey;
-  }
-</style>
+
   
 </main>
 
