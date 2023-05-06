@@ -8,7 +8,57 @@
 
   
 
-<h1> <u> カルバン </u> </h1>
+<h1> " ||カルバン|| "  </h1>
+
+<b><header>
+  <nav>
+    <ul>
+      <a href="home.js">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </ul>
+  </nav>
+</header></b>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -17,20 +67,28 @@
 
 
 <style>
-  body {background  : black;
-    color : white
+h2 {
+  font-family: bold  
+}
+  body {
+    background  : black;
+    color : silver
   }
 </style>
 
 <style>
 h1 {
-  font-family: arial black
-  
+  font-family: arial black 
 }
 </style>
 
-
-
+<style>
+  header {
+    text-align: right;
+    color: grey;
+  }
+</style>
+  
 </main>
 
 
