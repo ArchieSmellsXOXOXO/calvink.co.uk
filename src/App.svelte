@@ -1,9 +1,16 @@
+<script>
+
+    import { object_without_properties } from "svelte/internal";
+
+</script>
 <main>
     <style>
 body{
     background-color: black;
 }
 </style>
+
+
 </main>
 
 
@@ -15,7 +22,7 @@ body{
             <a href="https://www.calvink.co.uk">Home</a>
             <a href="#">about</a>
             <a href="#">blog</a>
-            <a href="#">portfolio</a>
+            <a href="#">CV</a>
             <a href=".\contact.html">contact</a>
             <div class="animation"></div>
         </nav>
@@ -24,15 +31,15 @@ body{
 </main>
 
 
-
 <div class="logo">
-    <b><h1>||カルバン||</h1></b> 
+    <u><b><h1>||カルバン||</h1></b></u>
 </div>
 
 
 
-
-
+<main>
+    <h1>welcome</h1>
+</main>
 
 
 
@@ -48,13 +55,14 @@ body{
 
 
 <style>
+h1{
+    color: white;
+}
 
-
-
-    .logo{
-        color: white;
-        margin: 30px;
-        font-size: large;
+.logo {
+    color: white;
+    margin: 30px;
+    font-size: large;
     }
 *{
     margin: 0;
@@ -127,7 +135,7 @@ nav .start-About, a:nth-child(2):hover~.animation {
     background-color: white;
 }
 
-nav .start-Blog, a:nth-child(3):hover~.animation {
+nav .start-CV, a:nth-child(3):hover~.animation {
     width: 100px;
     left: 210px;
     background-color: white;
