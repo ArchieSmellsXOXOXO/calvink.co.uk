@@ -1,4 +1,8 @@
 <main>
+<head>
+    <title>Go Explore</title>
+</head>
+
     <div>
     <nav>
         <a href="#">Home</a>
@@ -25,10 +29,8 @@
 
 
 
-
-
-
 <style>
+
 
     nav {
     margin-top: 27px auto 0;
