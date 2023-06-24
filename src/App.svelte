@@ -16,7 +16,7 @@ body{
             <a href="#">about</a>
             <a href="#">blog</a>
             <a href="#">portfolio</a>
-            <a href="contact.html">contact</a>
+            <a href="contact.svelte">contact</a>
             <div class="animation"></div>
         </nav>
      </div>
