@@ -12,11 +12,11 @@ body{
     <b>
      <div>
         <nav>
-            <a href="#">Home</a>
+            <a href="https://www.calvink.co.uk">Home</a>
             <a href="#">about</a>
             <a href="#">blog</a>
             <a href="#">portfolio</a>
-            <a href="contact.svelte">contact</a>
+            <a href=".\contact.html">contact</a>
             <div class="animation"></div>
         </nav>
      </div>
@@ -47,8 +47,9 @@ body{
 
 
 
-
 <style>
+
+
 
     .logo{
         color: white;
