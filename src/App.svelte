@@ -1,19 +1,37 @@
 <main>
     <div>
     <nav>
-        <a href="-">home</a>
-        <a href="-">about</a>
-        <a href="-">blog</a>
-        <a href="-">portfolio</a>
-        <a href="-">contact</a>
-        <div class="animated start-home"></div>
+        <a href="#">Home</a>
+        <a href="#">about</a>
+        <a href="#">blog</a>
+        <a href="#">portfolio</a>
+        <a href="#">contact</a>
+        <div class="animation"></div>
     </nav>
     </div>
 </main>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <style>
+
     nav {
-    margins: 27px auto 0;
+    margin-top: 27px auto 0;
 
     position: relative;
     width: 590px;
@@ -66,33 +84,33 @@ a:nth-child(5){
     width: 120px;
 }
 
-nav .start-home, a:nth-child(1):hover~.animation {
+nav .start-Home, a:nth-child(1):hover~.animation {
     width: 100px;
     left: 0;
     background-color: #1abc9c;
 }
 
-nav .start-about, a:nth-child(2):hover~.animation {
+nav .start-About, a:nth-child(2):hover~.animation {
     width: 110px;
     left: 100px;
     background-color: #e74c3c;
 }
 
-nav .start-blog, a:nth-child(3):hover~.animation {
+nav .start-Blog, a:nth-child(3):hover~.animation {
     width: 100px;
-    left: 210;
+    left: 210px;
     background-color: #3498db;
 }
 
-nav .start-portfolio, a:nth-child(4):hover~.animation {
+nav .start-Portfolio, a:nth-child(4):hover~.animation {
     width: 160px;
-    left: 310;
+    left: 310px;
     background-color: #9b59b6;   
 }
 
-nav .start-contact, a:nth-child(5):hover~.animation {
+nav .start-Contact, a:nth-child(5):hover~.animation {
     width: 120px;
-    left: 470;
+    left: 470px;
     background-color: #e67e22;   
 }
 
@@ -101,6 +119,7 @@ body {
     font-family: sans-serif;
     background: #2c3e50;
 }
+
 
 span{
     color: #2bd6b4;
