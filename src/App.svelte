@@ -16,7 +16,7 @@ body{
             <a href="#">about</a>
             <a href="#">blog</a>
             <a href="#">portfolio</a>
-            <a href="#">contact</a>
+            <a href="contact.svelte">contact</a>
             <div class="animation"></div>
         </nav>
      </div>
@@ -26,7 +26,7 @@ body{
 
 
 <div class="logo">
-    <b><h1>||カルバン||</h1></b>
+    <b><h1>||カルバン||</h1></b> 
 </div>
 
 
@@ -49,6 +49,7 @@ body{
 
 
 <style>
+
     .logo{
         color: white;
         margin: 30px;
