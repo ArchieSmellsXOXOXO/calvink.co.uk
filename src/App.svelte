@@ -1,19 +1,38 @@
 <main>
-<head>
-    <title>Go Explore</title>
-</head>
-
-    <div>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">about</a>
-        <a href="#">blog</a>
-        <a href="#">portfolio</a>
-        <a href="#">contact</a>
-        <div class="animation"></div>
-    </nav>
-    </div>
+    <style>
+body{
+    background-color: black;
+}
+</style>
 </main>
+
+
+
+<main>
+    <b>
+     <div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">about</a>
+            <a href="#">blog</a>
+            <a href="#">portfolio</a>
+            <a href="#">contact</a>
+            <div class="animation"></div>
+        </nav>
+     </div>
+    </b>
+</main>
+
+
+
+<div class="logo">
+    <b><h1>||カルバン||</h1></b>
+</div>
+
+
+
+
+
 
 
 
@@ -30,17 +49,25 @@
 
 
 <style>
-
-
+    .logo{
+        color: white;
+        margin: 30px;
+        font-size: large;
+    }
+*{
+    margin: 0;
+    padding: 0;
+}
     nav {
     margin-top: 27px auto 0;
 
     position: relative;
     width: 590px;
     height: 50px;
-    background-color: #34495e;
+    background-color: black;
     border-radius: 8px;
     font-size: 0;
+    float: right
 }
 
 nav a {
@@ -53,7 +80,7 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    color: white;
+    color: red;
     cursor: pointer;
 }
 
@@ -87,43 +114,36 @@ a:nth-child(5){
 }
 
 nav .start-Home, a:nth-child(1):hover~.animation {
-    width: 100px;
-    left: 0;
-    background-color: #1abc9c;
+    width: 110px;
+    left: 0px;
+    background-color: white;
 }
 
 nav .start-About, a:nth-child(2):hover~.animation {
     width: 110px;
     left: 100px;
-    background-color: #e74c3c;
+    background-color: white;
 }
 
 nav .start-Blog, a:nth-child(3):hover~.animation {
     width: 100px;
     left: 210px;
-    background-color: #3498db;
+    background-color: white;
 }
 
 nav .start-Portfolio, a:nth-child(4):hover~.animation {
     width: 160px;
     left: 310px;
-    background-color: #9b59b6;   
+    background-color: white;   
 }
 
 nav .start-Contact, a:nth-child(5):hover~.animation {
     width: 120px;
-    left: 470px;
-    background-color: #e67e22;   
-}
-
-body {
-    font-size: 12px;
-    font-family: sans-serif;
-    background: #2c3e50;
+    left: 480px;
+    background-color: white;   
 }
 
 
-span{
-    color: #2bd6b4;
-}
+
+
 </style>
