@@ -3,6 +3,8 @@
     import { object_without_properties } from "svelte/internal";
 
 </script>
+
+
 <main>
     <style>
 body{
@@ -19,11 +21,11 @@ body{
     <b>
      <div>
         <nav>
-            <a href="https://www.calvink.co.uk">Home</a>
+            <a href="#">Home</a>
             <a href="#">about</a>
             <a href="#">blog</a>
-            <a href="#">CV</a>
-            <a href=".\contact.html">contact</a>
+            <a href="#">portfolio</a>
+            <a href="#">contact</a>
             <div class="animation"></div>
         </nav>
      </div>
@@ -32,18 +34,14 @@ body{
 
 
 <div class="logo">
-    <u><b><h1>||カルバン||</h1></b></u>
+    <u><b><h1>カルバン</h1></b></u> 
 </div>
 
 
 
 <main>
-    <h1>welcome</h1>
+<div class="ui"></div>
 </main>
-
-
-
-
 
 
 
@@ -55,6 +53,19 @@ body{
 
 
 <style>
+
+
+
+
+.ui{
+    height: 130px;
+    border-radius: 50%;
+    background-image: url(img/ghosts.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
 h1{
     color: white;
 }
@@ -63,6 +74,7 @@ h1{
     color: white;
     margin: 30px;
     font-size: large;
+    
     }
 *{
     margin: 0;
@@ -74,7 +86,7 @@ h1{
     position: relative;
     width: 590px;
     height: 50px;
-    background-color: black;
+    background-color: grey;
     border-radius: 8px;
     font-size: 0;
     float: right
@@ -90,7 +102,7 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    color: red;
+    color: white;
     cursor: pointer;
 }
 
@@ -126,31 +138,31 @@ a:nth-child(5){
 nav .start-Home, a:nth-child(1):hover~.animation {
     width: 110px;
     left: 0px;
-    background-color: white;
+    background-color: black;
 }
 
 nav .start-About, a:nth-child(2):hover~.animation {
     width: 110px;
     left: 100px;
-    background-color: white;
+    background-color: black;
 }
 
 nav .start-CV, a:nth-child(3):hover~.animation {
     width: 100px;
     left: 210px;
-    background-color: white;
+    background-color: black;
 }
 
 nav .start-Portfolio, a:nth-child(4):hover~.animation {
     width: 160px;
     left: 310px;
-    background-color: white;   
+    background-color: black;   
 }
 
 nav .start-Contact, a:nth-child(5):hover~.animation {
     width: 120px;
     left: 480px;
-    background-color: white;   
+    background-color: black;   
 }
 
 
